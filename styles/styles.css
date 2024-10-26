@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('../images/monopoly.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #E0E0E0; 
+}
+
+
+.converter {
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); 
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+h1 {
+    color: #FFEB3B; 
+    margin-bottom: 20px;
+}
+
+
+label, select, input, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #616161; 
+    border-radius: 5px;
+    background-color: #424242; 
+    color: #E0E0E0; 
+    box-sizing: border-box; 
+}
+
+
+button {
+    color: white;
+    background-color: #FF5722; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #E64A19;
+}
+
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #616161;
+    border: 1px solid #757575; 
+    border-radius: 5px;
+    font-size: 1.1em; 
+    color: #FFEB3B; 
+}
+
+select {
+    padding-left: 30px; 
+}
+
+
+option {
+    display: flex;
+    align-items: center;
+}
