@@ -1,4 +1,3 @@
-const API_KEY = 'insert api key'; 
 const API_URL = `https://api.freecurrencyapi.com/v1/latest?apikey=${API_KEY}`;
 
 const currencyNames = {
