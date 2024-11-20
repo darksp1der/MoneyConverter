@@ -1,3 +1,4 @@
+const API_KEY = 'fca_live_VgEc1uDWrmMGQH4az55m3UtWWjKjvz0VQOo5KXgT'
 const API_URL = `https://api.freecurrencyapi.com/v1/latest?apikey=${API_KEY}`;
 
 const currencyNames = {
